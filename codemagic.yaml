@@ -5,8 +5,6 @@ workflows:
     environment:
       node: 18
       java: 11
-      android:
-        sdk: 33
     scripts:
       - name: Install dependencies
         script: npm install
